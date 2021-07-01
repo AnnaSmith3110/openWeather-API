@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="weather.css" />
+    <title>weather app - openWeather API</title>
+  </head>
+  <body>
+    <div class="app">
+  <input type="text" id="input" placeholder="enter city"/>
+  <div class="description">
+    <p id="desc"></p>
+  </div>
+  <div class="icon">
+    <img src ="https://github.com/AnnaSmith3110/openWeather-API/blob/main/sunny%20png.png?raw=true" id="weather-status-icon">
+  </div>
+  <div class="temperature">
+    <p>weather</p>
+    <h id="temp">t °c</h>
+  </div>
+  <div class="additional-info">
+    <div class="cube">
+      <div class="row">
+      <p>humidity</p>
+      </div>
+      <div class="row">
+        <img src= "https://github.com/AnnaSmith3110/openWeather-API/blob/main/drop%20png.png?raw=true" id="cube-img">
+      </div>
+      <div class="row">
+        <p1 id="humidity">humid</p1>
+      </div>
+    </div>
+    <div class="cube">
+       <div class="row">
+      <p>wind</p>
+         </div>
+       <div class="row">
+      <img src="https://github.com/AnnaSmith3110/openWeather-API/blob/main/wind%20png.png?raw=true" id="cube-img">
+      </div>
+      <div class="row">
+        <p1 id="wind">wind</p1>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="weather.js"></script>
+  </body>
+</html>
